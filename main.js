@@ -61,7 +61,7 @@ function injectChatbot() {
             </div>
         </div>
         <button class="chatbot-btn" onclick="toggleChat()">
-            <img src="file:///C:/Users/DELL/.gemini/antigravity/brain/9aa77564-5ab5-425c-9813-e8d67de1e13e/hero_incense_1777647108279.png" alt="Chat">
+            <img src="hero_incense_1777647108279.png" alt="Chat">
         </button>
     </div>
     `;
@@ -123,11 +123,11 @@ function showQuizResult() {
     const resultTitleEn = document.getElementById('quiz-result-title-en');
 
     if (quizAnswers.includes('mood-relax') || quizAnswers.includes('scent-woody')) {
-        resultImg.src = 'file:///C:/Users/DELL/.gemini/antigravity/brain/9aa77564-5ab5-425c-9813-e8d67de1e13e/product_bakhoor_1777646682781.png';
+        resultImg.src = 'product_bakhoor_1777646682781.png';
         resultTitleAr.textContent = 'رقائق بخور ملكية';
         resultTitleEn.textContent = 'Royal Bakhoor Chips';
     } else {
-        resultImg.src = 'file:///C:/Users/DELL/.gemini/antigravity/brain/9aa77564-5ab5-425c-9813-e8d67de1e13e/product_oud_1777646800019.png';
+        resultImg.src = 'product_oud_1777646800019.png';
         resultTitleAr.textContent = 'زيت العود الفاخر';
         resultTitleEn.textContent = 'Signature Oud Oil';
     }
