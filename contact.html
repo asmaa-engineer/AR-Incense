@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Incense - Contact Us</title>
+    <meta name="description" content="Get in touch with AR Incense for inquiries and visits.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">AR Incense</a>
+        <div class="nav-links">
+            <a href="index.html"><span class="ar">الرئيسية</span><span class="en">Home</span></a>
+            <a href="products.html"><span class="ar">المنتجات</span><span class="en">Products</span></a>
+            <a href="services.html"><span class="ar">الخدمات</span><span class="en">Services</span></a>
+            <a href="contact.html" class="active"><span class="ar">اتصل بنا</span><span class="en">Contact</span></a>
+        </div>
+        <button class="lang-switch" onclick="toggleLanguage()">
+            <span class="ar">English</span><span class="en">العربية</span>
+        </button>
+    </nav>
+
+    <header class="page-header animate-on-scroll">
+        <h1><span class="ar">تواصل معنا</span><span class="en">Contact Us</span></h1>
+        <p><span class="ar">نحن هنا للإجابة على جميع استفساراتكم وتلبية طلباتكم.</span><span class="en">We are here to answer all your inquiries and fulfill your requests.</span></p>
+    </header>
+
+    <div class="contact-container animate-on-scroll">
+        <div class="contact-info-block">
+            <h2 style="margin-bottom: 2rem;"><span class="ar">أرسل لنا رسالة</span><span class="en">Send us a message</span></h2>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent!');">
+                <div class="form-group">
+                    <label><span class="ar">الاسم الكامل</span><span class="en">Full Name</span></label>
+                    <input type="text" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label><span class="ar">البريد الإلكتروني</span><span class="en">Email Address</span></label>
+                    <input type="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label><span class="ar">الرسالة</span><span class="en">Message</span></label>
+                    <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="margin-top: 1rem;"><span class="ar">إرسال الرسالة</span><span class="en">Send Message</span></button>
+            </form>
+        </div>
+
+        <div class="contact-info-block">
+            <h2 style="margin-bottom: 2rem;"><span class="ar">معلومات المتجر</span><span class="en">Store Information</span></h2>
+            
+            <p style="margin-bottom: 1.5rem;">
+                <strong style="color: var(--color-gold);"><span class="ar">العنوان:</span><span class="en">Address:</span></strong><br>
+                123 Luxury Avenue, Business Bay, Dubai, UAE
+            </p>
+            
+            <p style="margin-bottom: 1.5rem;">
+                <strong style="color: var(--color-gold);"><span class="ar">ساعات العمل:</span><span class="en">Opening Hours:</span></strong><br>
+                <span class="ar">الاثنين - السبت: 10 صباحاً - 10 مساءً</span><span class="en">Mon - Sat: 10:00 AM - 10:00 PM</span><br>
+                <span class="ar">الأحد: مغلق</span><span class="en">Sunday: Closed</span>
+            </p>
+
+            <div style="width: 100%; height: 250px; background: #222; border-radius: 8px; overflow: hidden; margin-top: 2rem; border: 1px solid rgba(212,175,55,0.2);">
+                <!-- Placeholder for Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115536.00288258384!2d55.13840613271507!3d25.186835261546995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-brand">
+            <h3>AR Incense</h3>
+            <p><span class="ar">تواصل معنا لمزيد من المعلومات.</span><span class="en">Contact us for more information.</span></p>
+            <p style="margin-top: 1rem; color: var(--color-gold);">
+                <span class="ar">البريد الإلكتروني:</span><span class="en">Email:</span> info@arincense.com<br>
+                <span class="ar">الهاتف:</span><span class="en">Tel:</span> +971 50 123 4567
+            </p>
+        </div>
+        <div>
+            <h4 style="color: var(--color-text); margin-bottom: 1rem; font-family: var(--font-en); font-size: 1.2rem;">Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

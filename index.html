@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Incense - Luxury Bakhoor</title>
+    <meta name="description" content="AR Incense - Premium luxury bakhoor and incense for an elegant home. Experience the essence of luxury with our curated collection.">
+    <meta name="keywords" content="AR Innovations, Luxury Incense, Bakhoor, Oud, Premium Fragrance, Home Fragrance">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">AR Incense</a>
+        <div class="nav-links">
+            <a href="index.html" class="active"><span class="ar">الرئيسية</span><span class="en">Home</span></a>
+            <a href="products.html"><span class="ar">المنتجات</span><span class="en">Products</span></a>
+            <a href="services.html"><span class="ar">الخدمات</span><span class="en">Services</span></a>
+            <a href="contact.html"><span class="ar">اتصل بنا</span><span class="en">Contact</span></a>
+        </div>
+        <div class="controls">
+            <button class="toggle-btn" onclick="toggleTheme()">🌓</button>
+            <button class="lang-switch" onclick="toggleLanguage()">
+                <span class="ar">English</span><span class="en">العربية</span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1><span class="ar">اكتشف جوهر الفخامة</span><span class="en">Experience the Essence of Luxury</span></h1>
+            <p><span class="ar">بخور فاخر لمنزلك الأنيق. ارتقِ بحواسك مع مجموعتنا.</span><span class="en">Premium Bakhoor & Incense for your elegant home. Elevate your senses.</span></p>
+            <a href="products.html" class="btn"><span class="ar">تسوق الآن</span><span class="en">Shop Now</span></a>
+        </div>
+    </section>
+
+    <section id="royal-experience" class="royal-section">
+        <div class="royal-container animate-on-scroll">
+            <div class="royal-video-wrapper">
+                <video autoplay muted loop playsinline class="royal-video">
+                    <source src="video2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="royal-text">
+                <h2><span class="ar">التجربة الملكية</span><span class="en">The Royal Experience</span></h2>
+                <p><span class="ar">انغمس في عالم من الروائح الفاخرة. تم تصميم بخورنا بعناية لتوفير تجربة استثنائية ترتقي بكل لحظة في منزلك، مستوحاة من التراث الملكي العريق.</span><span class="en">Immerse yourself in a world of luxurious scents. Our incense is meticulously crafted to provide an exceptional experience that elevates every moment in your home, inspired by profound royal heritage.</span></p>
+                <a href="products.html" class="btn" style="margin-top: 1rem;"><span class="ar">استكشف المزيد</span><span class="en">Discover More</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-icon">✨</div>
+            <h3><span class="ar">الأصالة</span><span class="en">Authenticity</span></h3>
+            <p><span class="ar">مكونات طبيعية 100٪ منتقاة بعناية من جميع أنحاء العالم.</span><span class="en">100% natural ingredients carefully sourced globally.</span></p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-icon">👑</div>
+            <h3><span class="ar">الجودة</span><span class="en">Quality</span></h3>
+            <p><span class="ar">مصنوعة بأعلى المعايير لتحقيق الكمال العطري.</span><span class="en">Crafted with the highest standards for aromatic perfection.</span></p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-icon">💎</div>
+            <h3><span class="ar">الفخامة</span><span class="en">Luxury</span></h3>
+            <p><span class="ar">تجربة عطرية لا تنسى ترتقي بحواسك ومحيطك.</span><span class="en">An unforgettable aromatic experience elevating your surroundings.</span></p>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2 class="section-title animate-on-scroll"><span class="ar">مجموعتنا الفاخرة</span><span class="en">Our Premium Collection</span></h2>
+        <div class="products-grid">
+            
+            <div class="product-card animate-on-scroll">
+                <div class="product-image-container">
+                    <img src="file:///C:/Users/DELL/.gemini/antigravity/brain/9aa77564-5ab5-425c-9813-e8d67de1e13e/product_bakhoor_1777646682781.png" alt="Royal Bakhoor Chips" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3><span class="ar">رقائق بخور ملكية</span><span class="en">Royal Bakhoor Chips</span></h3>
+                    <p class="product-desc"><span class="ar">مستخرجة من أجود أنواع خشب العود القديم ذو الرائحة العميقة.</span><span class="en">Extracted from the finest aged agarwood with a deep, lingering scent.</span></p>
+                    <div class="product-price">$120</div>
+                    <button class="btn" style="padding: 0.8rem 2rem; font-size: 0.95rem;"><span class="ar">أضف إلى السلة</span><span class="en">Add to Cart</span></button>
+                </div>
+            </div>
+
+            <div class="product-card animate-on-scroll">
+                <div class="product-image-container">
+                    <img src="file:///C:/Users/DELL/.gemini/antigravity/brain/9aa77564-5ab5-425c-9813-e8d67de1e13e/product_burner_1777646696577.png" alt="Golden Incense Burner" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3><span class="ar">مبخرة ذهبية</span><span class="en">Golden Incense Burner</span></h3>
+                    <p class="product-desc"><span class="ar">تصميم هندسي فاخر مطلي بالذهب يضفي لمسة من الرقي.</span><span class="en">A luxurious geometric design with gold plating that adds a touch of elegance.</span></p>
+                    <div class="product-price">$85</div>
+                    <button class="btn" style="padding: 0.8rem 2rem; font-size: 0.95rem;"><span class="ar">أضف إلى السلة</span><span class="en">Add to Cart</span></button>
+                </div>
+            </div>
+
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="products.html" class="btn animate-on-scroll"><span class="ar">عرض كل المنتجات</span><span class="en">View All Products</span></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-brand">
+            <h3>AR Incense</h3>
+            <p><span class="ar">تواصل معنا لمزيد من المعلومات.</span><span class="en">Contact us for more information.</span></p>
+            <p style="margin-top: 1rem; color: var(--color-gold);">
+                <span class="ar">البريد الإلكتروني:</span><span class="en">Email:</span> fasb23169@gmail.com<br>
+                <span class="ar">الهاتف:</span><span class="en">Tel:</span> +971 50 123 4567
+            </p>
+        </div>
+        <div>
+            <h4 style="color: var(--color-text); margin-bottom: 1rem; font-family: var(--font-en); font-size: 1.2rem;">Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
